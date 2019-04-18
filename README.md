@@ -34,4 +34,6 @@ Put inside ~/.config/sway/config
 
 	exec fcitx -r
 
+Seems this workaround does not mess up with fcitx i3 funcionality.
+
 Good luck.
