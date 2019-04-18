@@ -27,6 +27,8 @@ So created a $home/.zprofile
 
 This will set variables and the last line will execute fcitx.
 
+Must be noted that toggle key combinations here and fcitx must not be the same. So I choose rctrl here and ctrl+space in fcitx.
+
 Inside sway, fcitx-configtool will not work. Launching another instance of fcitx will correct this.
 
 Put inside ~/.config/sway/config
