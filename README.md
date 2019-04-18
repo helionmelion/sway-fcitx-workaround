@@ -26,7 +26,6 @@ So created a $home/.zprofile
 	fcitx -r
 
 This will set variables and the last line will execute fcitx.
-Maybe it is better to use fcitx -D to not run as daemon.
 
 Inside sway, fcitx-configtool will not work. Launching another instance of fcitx will correct this.
 
@@ -34,6 +33,8 @@ Put inside ~/.config/sway/config
 
 	exec fcitx -r
 
-Seems this workaround does not mess up with fcitx i3 funcionality.
+Maybe it is better to use fcitx -D to not run as daemon. Yet to be tested combinations in .zprofile and sway config to avoid multiple allocation of fcitx and dbus-daemon upon logoff/logon. 
+
+Seems this workaround does not mess up with current fcitx i3-wm funcionality.
 
 Good luck.
