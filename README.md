@@ -17,13 +17,13 @@ SDDM will source .zprofile if it exists.
 
 So created a $home/.zprofile
 
-  export XKB_DEFAULT_MODEL=jp106
-  export XKB_DEFAULT_LAYOUT=jp,br
-  export XKB_DEFAULT_OPTIONS=grp:rctrl_toggle
-  export _JAVA_AWT_WM_NONREPARENTING=1
-  export GTK_IM_MODULE=fcitx
-  export QT_IM_MODULE=fcitx
-  export XMODIFIERS=@im=fcitx
-  fcitx
+export XKB_DEFAULT_MODEL=jp106
+export XKB_DEFAULT_LAYOUT=jp,br
+export XKB_DEFAULT_OPTIONS=grp:rctrl_toggle
+export _JAVA_AWT_WM_NONREPARENTING=1
+export GTK_IM_MODULE=fcitx
+export QT_IM_MODULE=fcitx
+export XMODIFIERS=@im=fcitx
+fcitx
 
 
